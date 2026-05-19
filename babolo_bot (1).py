@@ -12,7 +12,7 @@ from telegram.ext import (
 )
 
 # =============================================
-# BOT TOKEN - BotFather dan olgan tokeningiz
+# BOT TOKEN - 8918790074:AAEtVRX-VIZ2DNyRkpbTDgd484j1e1mTF9Y
 # =============================================
 BOT_TOKEN = os.environ.get "8918790074:AAEtVRX-VIZ2DNyRkpbTDgd484j1e1mTF9Y"
 
