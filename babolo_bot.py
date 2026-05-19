@@ -14,7 +14,7 @@ from telegram.ext import (
 # =============================================
 # BOT TOKEN - 8918790074:AAEtVRX-VIZ2DNyRkpbTDgd484j1e1mTF9Y
 # =============================================
-BOT_TOKEN = os.environ.get "8918790074:AAEtVRX-VIZ2DNyRkpbTDgd484j1e1mTF9Y"
+BOT_TOKEN = os.environ.get ("8918790074:AAEtVRX-VIZ2DNyRkpbTDgd484j1e1mTF9Y")
 
 # =============================================
 # O'QUV MARKAZ MA'LUMOTLARI - O'ZGARTIRING
