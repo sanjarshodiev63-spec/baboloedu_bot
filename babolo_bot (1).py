@@ -14,14 +14,14 @@ from telegram.ext import (
 # =============================================
 # BOT TOKEN - BotFather dan olgan tokeningiz
 # =============================================
-BOT_TOKEN = "BU_YERGA_BOT_TOKENINI_KIRITING"
+BOT_TOKEN = os.environ.get "8918790074:AAEtVRX-VIZ2DNyRkpbTDgd484j1e1mTF9Y"
 
 # =============================================
 # O'QUV MARKAZ MA'LUMOTLARI - O'ZGARTIRING
 # =============================================
-MARKAZ_NOMI = "Babolo O'qib Markazi"
-MANZIL = "📍 Toshkent sh., Chilonzor tumani, 5-mavze, 12-uy"
-TELEFON = "📞 +998 90 123 45 67"
+MARKAZ_NOMI = "Babolo уқув маркази"
+MANZIL = "📍 Хужанд ш., Ғӯлакандоз қишлоғи,қишлоқ центри Д.Самадов кучаси, 59"
+TELEFON = "📞 +992 94 000 3000"
 TELEFON2 = "📞 +998 91 234 56 78"
 ISH_VAQTI = "🕐 Dush-Shan: 08:00 - 20:00"
 KARTA_RAQAM = "💳 8600 1234 5678 9012"
