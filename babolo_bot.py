@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-import os"""
+import os
+"""
 Babolo O'quv Markazi - Telegram Bot
 Ishlatish: pip install python-telegram-bot==20.7
 """
