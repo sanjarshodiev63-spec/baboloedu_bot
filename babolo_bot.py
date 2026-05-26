@@ -44,7 +44,7 @@ OQITUVCHILAR = [
 
 FANLAR = {
     "uz": ["Ingliz tili", "Rus tili"],
-    "ru": ["Английский", ,  "Русский язык"],
+    "ru": ["Английский", "Русский язык"],
     "en": ["English", "Russian"],
     "tj": ["Англисӣ","Русӣ"],
 }
