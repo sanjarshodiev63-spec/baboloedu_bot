@@ -21,7 +21,7 @@ BOT_TOKEN = "8918790074:AAEtVRX-VIZ2DNyRkpbTDgd484j1e1mTF9Y"
 # O'QUV MARKAZ MA'LUMOTLARI
 # =============================================
 MARKAZ_NOMI = "Babolo educational center"
-MANZIL = "G'ulakandoz qishloq'i (markazi), istiqlol binosi, Davron Samadov"
+MANZIL = "Ғӯлакандоз қишлоғи (маркази) Истиқлол биноси Даврон Самадов кӯчаси "
 TELEFON = "+992 94 000 3000"
 TELEFON2 = "+998 98 880 0708"
 ISH_VAQTI_UZ = "Dush-Shan: 08:00 - 17:00"
@@ -29,7 +29,7 @@ ISH_VAQTI_RU = "Пн-Вс: 08:00 - 17:00"
 ISH_VAQTI_EN = "Mon-Sun: 08:00 - 17:00"
 ISH_VAQTI_TJ = "Душ-Шан: 08:00 - 17:00"
 KARTA_RAQAM = "94 300 3000"
-KARTA_EGASI = " Abdimuminova Muhabbat Abdijabborovna"
+KARTA_EGASI = "Абдимуминова Муҳабат Абдиҷабборовна"
 BANK = "dushanbe city"
 
 # O'qituvchilar
@@ -77,123 +77,119 @@ TEXTS = {
     },
     # --- MENYU TUGMALARI ---
     "btn_teachers": {
-        "uz": "👨‍🏫 O'qituvchilar",
+        "uz": "👨‍🏫 Уқитувчилар",
         "ru": "👨‍🏫 Учителя",
         "en": "👨‍🏫 Teachers",
         "tj": "👨‍🏫 Муаллимон",
     },
     "btn_payment": {
-        "uz": "💳 To'lov ma'lumotlari",
+        "uz": "💳 Тулов маълумотлари",
         "ru": "💳 Данные оплаты",
         "en": "💳 Payment info",
         "tj": "💳 Маълумоти пардохт",
     },
     "btn_register": {
-        "uz": "📝 Darsga yozilish",
+        "uz": "📝 Дарсга йозилиш",
         "ru": "📝 Записаться на курс",
         "en": "📝 Enroll in course",
         "tj": "📝 Ба дарс навиштан",
     },
     "btn_contact": {
-        "uz": "📞 Aloqa / Manzil",
+        "uz": "📞 Алоқа / Манзил",
         "ru": "📞 Контакты / Адрес",
         "en": "📞 Contact / Address",
         "tj": "📞 Тамос / Суроға",
     },
     "btn_language": {
-        "uz": "🌐 Tilni o'zgartirish",
+        "uz": "🌐 тилни узгартири",
         "ru": "🌐 Сменить язык",
         "en": "🌐 Change language",
         "tj": "🌐 Иваз кардани забон",
     },
     "btn_cancel": {
-        "uz": "❌ Bekor qilish",
+        "uz": "❌ бекор қилиш",
         "ru": "❌ Отмена",
         "en": "❌ Cancel",
         "tj": "❌ Бекор кардан",
     },
     "btn_map": {
-        "uz": "🗺 Xaritada ko'rish",
+        "uz": "🗺 Харитада куриш",
         "ru": "🗺 Посмотреть на карте",
         "en": "🗺 View on map",
         "tj": "🗺 Дар харита дидан",
     },
     "btn_channel": {
-        "uz": "📲 Telegram kanal",
+        "uz": "📲 Telegram канал",
         "ru": "📲 Telegram канал",
         "en": "📲 Telegram channel",
         "tj": "📲 Канали Telegram",
     },
     "btn_paid": {
-        "uz": "✅ To'lov qildim - Chek yuborish",
+        "uz": "✅ Тулов қилдим- чек йубориш",
         "ru": "✅ Оплатил - Отправить чек",
         "en": "✅ Paid - Send receipt",
         "tj": "✅ Пардохт кардам - Чек фиристодан",
     },
-    # --- ALOQA ---
+    # --- АЛОҚА ---
     "contact_title": {
-        "uz": "📞 <b>Aloqa va Manzil</b>\n{'━'*25}\n\n🏫 <b>{markaz}</b>\n\n📍 {manzil}\n\n📞 {tel1}\n📞 {tel2}\n\n🕐 {vaqt}\n\n💬 <i>Savollaringiz bo'lsa, qo'ng'iroq qiling!</i>",
+        "uz": "📞 <b>Алоқа ва манзил/b>\n{'━'*25}\n\n🏫 <b>{markaz}</b>\n\n📍 {manzil}\n\n📞 {tel1}\n📞 {tel2}\n\n🕐 {vaqt}\n\n💬 <i>Savollaringiz bo'lsa, qo'ng'iroq qiling!</i>",
         "ru": "📞 <b>Контакты и Адрес</b>\n{'━'*25}\n\n🏫 <b>{markaz}</b>\n\n📍 {manzil}\n\n📞 {tel1}\n📞 {tel2}\n\n🕐 {vaqt}\n\n💬 <i>Если есть вопросы — звоните!</i>",
         "en": "📞 <b>Contact & Address</b>\n{'━'*25}\n\n🏫 <b>{markaz}</b>\n\n📍 {manzil}\n\n📞 {tel1}\n📞 {tel2}\n\n🕐 {vaqt}\n\n💬 <i>Call us if you have questions!</i>",
         "tj": "📞 <b>Тамос ва Суроға</b>\n{'━'*25}\n\n🏫 <b>{markaz}</b>\n\n📍 {manzil}\n\n📞 {tel1}\n📞 {tel2}\n\n🕐 {vaqt}\n\n💬 <i>Агар саволе дошта бошед, занг занед!</i>",
     },
-    # --- TO'LOV ---
+    # --- Тулов ---
     "payment_title": {
         "uz": (
-            "💳 <b>To'lov Ma'lumotlari</b>\n{'━'*25}\n\n"
-            "💳 {karta}\n👤 {egasi}\n🏦 {bank}\n\n"
+            "💳 <b>Тулов Маълумотлари</b>\n{'━'*25}\n\n"
+            "💳 {карта}\n👤 {эгаси}\n🏦 {bank}\n\n"
             "📌 <b>Eslatma:</b>\n"
-            "• To'lov har oyning 1-5 sanasi\n"
-            "• To'lovdan so'ng chekni adminga yuboring\n"
-            "• Muammo bo'lsa: 📞 {tel}"
+            "• ТУловдан сунг чекни админга ҷунатинг\n"
+            "• Muammo bo'lsa: 📞 {тел 940003000}"
         ),
         "ru": (
             "💳 <b>Данные Оплаты</b>\n{'━'*25}\n\n"
-            "💳 {karta}\n👤 {egasi}\n🏦 {bank}\n\n"
-            "📌 <b>Примечание:</b>\n"
-            "• Оплата с 1 по 5 число каждого месяца\n"
+            "💳 {карта}\n👤 {владелец}\n🏦 {bank}\n\n"
+            "📌 <b>Примечание:</b>\n
             "• После оплаты отправьте чек администратору\n"
-            "• При проблемах: 📞 {tel}"
+            "• При проблемах: 📞 {тел 940003000}"
         ),
         "en": (
             "💳 <b>Payment Information</b>\n{'━'*25}\n\n"
-            "💳 {karta}\n👤 {egasi}\n🏦 {bank}\n\n"
+            "💳 {card}\n👤 {holder}\n🏦 {bank}\n\n"
             "📌 <b>Note:</b>\n"
-            "• Payment due on 1st–5th of each month\n"
             "• Send receipt to admin after payment\n"
-            "• For issues: 📞 {tel}"
+            "• For issues: 📞 {tel 94 000 3000}"
         ),
         "tj": (
             "💳 <b>Маълумоти Пардохт</b>\n{'━'*25}\n\n"
-            "💳 {karta}\n👤 {egasi}\n🏦 {bank}\n\n"
+            "💳 {карта}\n👤 {соҳиб}\n🏦 {bank}\n\n"
             "📌 <b>Эзоҳ:</b>\n"
-            "• Пардохт аз 1 то 5-уми ҳар моҳ\n"
             "• Пас аз пардохт чекро ба админ фиристед\n"
             "• Дар мушкилот: 📞 {tel}"
         ),
     },
     # --- O'QITUVCHILAR ---
     "teachers_title": {
-        "uz": "👨‍🏫 <b>O'qituvchilarimiz</b>\n{'━'*25}\n\n",
+        "uz": "👨‍🏫 <b>уқитувчиларимиз</b>\n{'━'*25}\n\n",
         "ru": "👨‍🏫 <b>Наши Учителя</b>\n{'━'*25}\n\n",
         "en": "👨‍🏫 <b>Our Teachers</b>\n{'━'*25}\n\n",
         "tj": "👨‍🏫 <b>Муаллимони мо</b>\n{'━'*25}\n\n",
     },
     "teacher_row": {
-        "uz": "{emoji} <b>{ism}</b>\n   📚 Fan: {fan}\n   🏆 {yil} yil tajriba\n\n",
-        "ru": "{emoji} <b>{ism}</b>\n   📚 Предмет: {fan}\n   🏆 Опыт: {yil} лет\n\n",
-        "en": "{emoji} <b>{ism}</b>\n   📚 Subject: {fan}\n   🏆 Experience: {yil} years\n\n",
-        "tj": "{emoji} <b>{ism}</b>\n   📚 Фан: {fan}\n   🏆 Таҷриба: {yil} сол\n\n",
+        "uz": "{emoji} <b>{ism}</b>\n   📚 Fan: {фан}\n   🏆 {yil} yil tajriba\n\n",
+        "ru": "{emoji} <b>{ism}</b>\n   📚 Предмет: {предмет}\n   🏆 Опыт: {yil} лет\n\n",
+        "en": "{emoji} <b>{ism}</b>\n   📚 Subject: {lesson}\n   🏆 Experience: {yil} years\n\n",
+        "tj": "{emoji} <b>{ism}</b>\n   📚 Фан: {фан}\n   🏆 Таҷриба: {yil} сол\n\n",
     },
     "teachers_footer": {
-        "uz": "📞 Batafsil ma'lumot: {tel}",
-        "ru": "📞 Подробнее: {tel}",
-        "en": "📞 More info: {tel}",
-        "tj": "📞 Маълумоти бештар: {tel}",
+        "uz": "📞 батафсил маълумот: {tel 940003000}",
+        "ru": "📞 Подробнее: {tel 940003000}",
+        "en": "📞 More info: {tel 940003000}",
+        "tj": "📞 Маълумоти бештар: {tel 940003000}",
     },
-    # --- DARSGA YOZILISH ---
+    # --- ДАРСГА ЙОЗИЛИШ ---
     "enroll_start": {
-        "uz": "📝 <b>Darsga yozilish</b>\n{'━'*25}\n\nIsmingiz va familiyangizni kiriting:\n<i>(Masalan: Aliyev Jasur)</i>",
+        "uz": "📝 <b>дарсга йозилиш</b>\n{'━'*25}\n\nIsmingiz va familiyangizni kiriting:\n<i>(Masalan: Aliyev Jasur)</i>",
         "ru": "📝 <b>Запись на курс</b>\n{'━'*25}\n\nВведите ваше имя и фамилию:\n<i>(Например: Aliyev Jasur)</i>",
         "en": "📝 <b>Course Enrollment</b>\n{'━'*25}\n\nEnter your first and last name:\n<i>(Example: Aliyev Jasur)</i>",
         "tj": "📝 <b>Ба дарс навиштан</b>\n{'━'*25}\n\nНоми ва насаби худро ворид кунед:\n<i>(Масалан: Алиев Ҷасур)</i>",
