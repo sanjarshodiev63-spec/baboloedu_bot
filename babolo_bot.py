@@ -21,7 +21,7 @@ BOT_TOKEN = "8918790074:AAEtVRX-VIZ2DNyRkpbTDgd484j1e1mTF9Y"
 # O'QUV MARKAZ MA'LUMOTLARI
 # =============================================
 MARKAZ_NOMI = "Babolo educational center"
-MANZIL = "G'ulakandoz qishloq'i (markazi), istiqlol binosi, Davron Samadov
+MANZIL = "G'ulakandoz qishloq'i (markazi), istiqlol binosi, Davron Samadov"
 TELEFON = "+992 94 000 3000"
 TELEFON2 = "+998 98 880 0708"
 ISH_VAQTI_UZ = "Dush-Shan: 08:00 - 17:00"
