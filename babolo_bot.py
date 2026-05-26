@@ -20,31 +20,33 @@ BOT_TOKEN = "8918790074:AAEtVRX-VIZ2DNyRkpbTDgd484j1e1mTF9Y"
 # =============================================
 # O'QUV MARKAZ MA'LUMOTLARI
 # =============================================
-MARKAZ_NOMI = "Babolo O'qib Markazi"
-MANZIL = "Toshkent sh., Chilonzor tumani, 5-mavze, 12-uy"
-TELEFON = "+998 90 123 45 67"
-TELEFON2 = "+998 91 234 56 78"
-ISH_VAQTI_UZ = "Dush-Shan: 08:00 - 20:00"
-ISH_VAQTI_RU = "Пн-Вс: 08:00 - 20:00"
-ISH_VAQTI_EN = "Mon-Sun: 08:00 - 20:00"
-ISH_VAQTI_TJ = "Душ-Шан: 08:00 - 20:00"
-KARTA_RAQAM = "8600 1234 5678 9012"
-KARTA_EGASI = "Rahmatullayev Bobur"
-BANK = "Kapitalbank"
+MARKAZ_NOMI = "Babolo educational center"
+MANZIL = "G'ulakandoz qishloq'i (markazi), istiqlol binosi, Davron Samadov
+TELEFON = "+992 94 000 3000"
+TELEFON2 = "+998 98 880 0708"
+ISH_VAQTI_UZ = "Dush-Shan: 08:00 - 17:00"
+ISH_VAQTI_RU = "Пн-Вс: 08:00 - 17:00"
+ISH_VAQTI_EN = "Mon-Sun: 08:00 - 17:00"
+ISH_VAQTI_TJ = "Душ-Шан: 08:00 - 17:00"
+KARTA_RAQAM = "94 300 3000"
+KARTA_EGASI = " Abdimuminova Muhabbat Abdijabborovna"
+BANK = "dushanbe city"
 
 # O'qituvchilar
 OQITUVCHILAR = [
-    {"ism": "Karimov Jasur",    "fan_uz": "Matematika", "fan_ru": "Математика", "fan_en": "Mathematics", "fan_tj": "Математика", "tajriba": 8,  "emoji": "📐"},
-    {"ism": "Rahimova Dilnoza", "fan_uz": "Ingliz tili","fan_ru": "Английский", "fan_en": "English",     "fan_tj": "Англисӣ",    "tajriba": 6,  "emoji": "🇬🇧"},
-    {"ism": "Toshmatov Sanjar", "fan_uz": "Fizika",     "fan_ru": "Физика",     "fan_en": "Physics",     "fan_tj": "Физика",     "tajriba": 5,  "emoji": "⚡"},
-    {"ism": "Nazarova Malika",  "fan_uz": "Kimyo",      "fan_ru": "Химия",      "fan_en": "Chemistry",   "fan_tj": "Кимиё",      "tajriba": 7,  "emoji": "🧪"},
+    {"ism": "Фозилова Мадинахон Одиловна", "fan_uz": "инглиз тили", "fan_ru": "Англиский", "fan_en": "english", "fan_tj": "Англисӣ", "tajriba": 11,  "emoji": "📐"},
+    {"ism": "Самадова Хосият", "fan_uz": "рус тили","fan_ru": "русский", "fan_en": "russian",     "fan_tj": "русӣ",    "tajriba": 38,  "emoji": "🇬🇧"},
+    {"ism": "Шукурова Солиҳаҷон Йулдошовна", "fan_uz": "инглиз тили",     "fan_ru": "Англиский",     "fan_en": "english",     "fan_tj": "Англисӣ",     "tajriba": 19,  "emoji": "⚡"},
+    {"ism": "Ахмедҷонова Нилуфар Юсуфҷоновна",  "fan_uz": "рус тили",      "fan_ru": "русский",      "fan_en": "russian",   "fan_tj": "русӣ",      "tajriba": 33,  "emoji": "🧪"},
+    {"ism": "Бойматова Шахноза", "fan_uz": "инглиз тили", "fan_ru": "Англиский", "fan_en": "english", "fan_tj": "Англисӣ", "tajriba": 18,  "emoji": "📐"},
+    {"ism": "Абдимуминова Муҳабат Абдиҷабборовна", "администратор"},
 ]
 
 FANLAR = {
-    "uz": ["Matematika", "Ingliz tili", "Fizika", "Kimyo", "Biologiya", "Rus tili"],
-    "ru": ["Математика", "Английский", "Физика", "Химия", "Биология",  "Русский язык"],
-    "en": ["Mathematics","English",    "Physics","Chemistry","Biology", "Russian"],
-    "tj": ["Математика", "Англисӣ",    "Физика", "Кимиё",  "Биология", "Русӣ"],
+    "uz": ["Ingliz tili", "Rus tili"],
+    "ru": ["Английский", ,  "Русский язык"],
+    "en": ["English", "Russian"],
+    "tj": ["Англисӣ","Русӣ"],
 }
 
 # =============================================
