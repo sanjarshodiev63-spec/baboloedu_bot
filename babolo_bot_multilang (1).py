@@ -15,7 +15,7 @@ from telegram.ext import (
 # =============================================
 # BOT TOKEN
 # =============================================
-BOT_TOKEN = "BU_YERGA_BOT_TOKENINI_KIRITING"
+BOT_TOKEN = "8918790074:AAEtVRX-VIZ2DNyRkpbTDgd484j1e1mTF9Y"
 
 # =============================================
 # O'QUV MARKAZ MA'LUMOTLARI
