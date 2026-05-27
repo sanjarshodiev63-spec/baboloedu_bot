@@ -415,7 +415,7 @@ async def fan_olish(update: Update, context: ContextTypes.DEFAULT_TYPE):
         reply_markup=bosh_menyu(lang)
     )
      # Admin ga xabar yuborish
-     ADMIN_CHAT_ID = 7821601256
+    ADMIN_CHAT_ID = 7821601256
      await context.bot.send_message(chat_id=ADMIN_CHAT_ID, text=f"🆕 Yangi ariza!\n👤 {ism}\n📱 {telefon}\n📚 {fan}")
     return ConversationHandler.END
 
