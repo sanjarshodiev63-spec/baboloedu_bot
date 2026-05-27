@@ -338,9 +338,7 @@ async def tolov_malumotlari(update: Update, context: ContextTypes.DEFAULT_TYPE):
               bank=BANK,
               tel=TELEFON)
     inline = InlineKeyboardMarkup([
-        [InlineKeyboardButton(t("btn_paid", lang), url="https://t.me/mahmudov_mentor")],
-        [InlineKeyboardButton(t("btn_channel", lang), url="https://t.me/+YlLgTaf9MIwyYmE6")],
-        [InlineKeyboardButton("💬 WhatsApp", url="https://chat.whatsapp.com/FedvR6riKUh5UQCujxzSLB")]
+        [InlineKeyboardButton(t("btn_paid", lang), url="https://t.me/@baboloeducation")]
     ])
     await update.message.reply_text(xabar, parse_mode="HTML", reply_markup=inline)
 
