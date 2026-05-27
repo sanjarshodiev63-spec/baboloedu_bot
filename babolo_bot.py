@@ -324,8 +324,8 @@ async def aloqa_manzil(update: Update, context: ContextTypes.DEFAULT_TYPE):
               tel2=TELEFON2,
               vaqt=ISH_VAQTLAR[lang])
     inline = InlineKeyboardMarkup([
-        [InlineKeyboardButton(t("btn_map", lang), url="https://maps.google.com/?q=41.2995,69.2401")],
-        [InlineKeyboardButton(t("btn_channel", lang), url="https://t.me/babolo_markaz")]
+        [InlineKeyboardButton(t("btn_map", lang), url="https://https://maps.app.goo.gl/DAnAwNHjUMv82eGn9")],
+        [InlineKeyboardButton(t("btn_channel", lang), url="https://t.me/+YlLgTaf9MIwyYmE6")]
     ])
     await update.message.reply_text(xabar, parse_mode="HTML", reply_markup=inline)
 
