@@ -29,7 +29,7 @@ ISH_VAQTI_RU = "Пн-Вс: 08:00 - 17:00"
 ISH_VAQTI_EN = "Mon-Sun: 08:00 - 17:00"
 ISH_VAQTI_TJ = "Душ-Шан: 08:00 - 17:00"
 KARTA_RAQAM = "94 300 3000"
-KARTA_EGASI = "Абдимуминова Муҳабат Абдиҷабборовна"
+KARTA_EGASI = "Абдимуминова Муҳаббат Абдиҷабборовна"
 BANK = "Dushanbe City"
 
 # O'qituvchilar
@@ -39,7 +39,7 @@ OQITUVCHILAR = [
     {"ism": "Шукурова Солиҳаҷон Йулдошовна",         "fan_uz": "Инглиз тили", "fan_ru": "Английский", "fan_en": "English", "fan_tj": "Англисӣ", "tajriba": 19, "emoji": "🇬🇧"},
     {"ism": "Ахмедҷонова Нилуфар Юсуфҷоновна",       "fan_uz": "Рус тили",    "fan_ru": "Русский",    "fan_en": "Russian", "fan_tj": "Русӣ",    "tajriba": 33, "emoji": "🇷🇺"},
     {"ism": "Бойматова Шахноза",                     "fan_uz": "Инглиз тили", "fan_ru": "Английский", "fan_en": "English", "fan_tj": "Англисӣ", "tajriba": 18, "emoji": "🇬🇧"},
-    {"ism": "Абдимуминова Муҳабат Абдиҷабборовна",   "fan_uz": "Администратор","fan_ru": "Администратор","fan_en": "Administrator","fan_tj": "Маъмур", "tajriba": 0, "emoji": "🗂"},
+    {"ism": "Абдимуминова Муҳаббат Абдиҷабборовна",   "fan_uz": "Администратор","fan_ru": "Администратор","fan_en": "Administrator","fan_tj": "Маъмур", "tajriba": 0, "emoji": "🗂"},
 ]
 
 FANLAR = {
@@ -337,7 +337,8 @@ async def tolov_malumotlari(update: Update, context: ContextTypes.DEFAULT_TYPE):
               bank=BANK,
               tel=TELEFON)
     inline = InlineKeyboardMarkup([
-        [InlineKeyboardButton(t("btn_paid", lang), url="https://t.me/babolo_admin")]
+        [InlineKeyboardButton(t("btn_paid", lang), url="https://t.me/makhmudov_mentor")]
+        [InlineKeyboardButton("💬 WhatsApp", url="https://chat.whatsapp.com/FedvR6riKUh5UQCujxzSLB")]
     ])
     await update.message.reply_text(xabar, parse_mode="HTML", reply_markup=inline)
 
