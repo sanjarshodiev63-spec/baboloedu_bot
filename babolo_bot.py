@@ -325,7 +325,8 @@ async def aloqa_manzil(update: Update, context: ContextTypes.DEFAULT_TYPE):
               vaqt=ISH_VAQTLAR[lang])
     inline = InlineKeyboardMarkup([
         [InlineKeyboardButton(t("btn_map", lang), url="https://maps.app.goo.gl/DAnAwNHjUMv82eGn9")],
-        [InlineKeyboardButton(t("btn_channel", lang), url="https://t.me/+YlLgTaf9MIwyYmE6")]
+        [InlineKeyboardButton(t("btn_channel", lang), url="https://t.me/+YlLgTaf9MIwyYmE6")],
+        [InlineKeyboardButton("💬 WhatsApp", url="https://chat.whatsapp.com/FedvR6riKUh5UQCujxzSLB")]
     ])
     await update.message.reply_text(xabar, parse_mode="HTML", reply_markup=inline)
 
